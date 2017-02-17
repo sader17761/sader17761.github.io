@@ -1,0 +1,17 @@
+/* ----------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------- */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	background-color: #fff; 
+	color: #555; /* main font color */
+	font-size: 20px;
+	overflow-x: hidden;
+}
