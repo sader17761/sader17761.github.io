@@ -95,7 +95,7 @@ header {
 
 .contact-links li {
 	list-style: none;
-	padding: 5px 0;
+	padding: 4px 0;
 }
 
 .contact-links i {
@@ -168,7 +168,7 @@ header {
 	display: inline-block;
 	background-color: #333A56;
 	color: #fff;
-	padding: 10px 68px;
+	padding: 10px 66px;
 }
 
 .resume-links li:first-of-type {
@@ -346,4 +346,5 @@ header {
 		font-size: 17px;
 	}
 }
+
 
