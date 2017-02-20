@@ -10,8 +10,350 @@
 
 html,
 body {
-	background-color: #fff; 
+	background-color: #e8e8e8; 
 	color: #555; /* main font color */
-	font-size: 20px;
+	font-size: 18px;
 	overflow-x: hidden;
+	font-family: 'Lato', sans-serif;
 }
+
+
+
+
+/* ----------------------------------------- */
+/* HEADER */
+/* ----------------------------------------- */
+header {
+	height: 450px;
+	margin-top: 0;
+	background-image: linear-gradient(rgba(53,53,53,.5), rgba(53,53,53,.5)), url(images/bg3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom: 6px solid #cc2900;
+}
+
+
+.container {
+	margin-top: 50px;
+}
+
+
+/* ----------------------------------------- */
+/* LEFT SECTION */
+/* ----------------------------------------- */
+
+.section-info {
+	height: auto;
+	margin-bottom: 40px;
+
+}
+
+.info-padding {
+	background: #fff;
+	box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.1);
+}
+
+.section-info img {
+	width: 250px;
+	height: auto;
+	display: block;
+	margin: 40px auto 0 auto;
+	border-radius: 50%;
+}
+
+.section-info span {
+	color: #52658F;
+	font-weight: bold;
+}
+
+.intro-title,
+.intro-description,
+.section-info p {
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.section-info strong{
+	font-size: 20px;
+	font-size: 700;
+}
+
+.intro-title {
+	font-size: 50px;
+	margin-top: 20px;
+}
+
+.section-info hr {
+	width: 92%;
+	margin: 35px auto 35px auto;
+}
+
+.contact-links {
+	margin: 35px 0 35px 105px;
+}
+
+.contact-links li {
+	list-style: none;
+}
+
+.contact-links i {
+	margin-right: 12px;
+	font-size: 22px;
+	color: #52658F;
+}
+
+.social-links {
+	list-style: none;
+	font-size: 35px;
+	margin: 0 0 30px 125px;
+}
+
+.social-links li{
+	display: inline-block;
+	margin-right: 40px;
+}
+
+.social-links i {
+	color: #555;
+}
+
+.contact-links a:link, .contact-links a:visited {
+    color: #555;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.contact-links a:hover, .contact-links a:active {
+    color: #52658F;
+}
+
+
+.social-links i:hover, .social-links i:active {
+    color: #52658F;
+}
+
+
+
+
+/* ----------------------------------------- */
+/* RIGHT SECTION */
+/* ----------------------------------------- */
+
+.section-resume {
+	margin-bottom: 50px;
+}
+
+.section-resume-padding {
+	background: #fff;
+	padding-bottom: 30px;
+	box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.1);
+}
+
+.section-resume .resume-header {
+	font-weight: bold;
+	font-size: 35px;
+	padding: 20px 15px 0 15px;
+	text-transform: uppercase;
+}
+
+.section-resume hr {
+	width: 96%;
+	margin: 20px auto 30px auto;
+}
+
+.resume-links li {
+	list-style: none;
+	display: inline-block;
+	background-color: #333A56;
+	color: #fff;
+	padding: 10px 65px;
+}
+
+.resume-links li:first-of-type {
+	margin-left: 15px;
+	margin-right: 5px;
+}
+
+.resume-links a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.resume-links i {
+	padding-right: 10px;
+}
+
+.resume-links li:link, .resume-links li:visited {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.resume-links li:hover, .resume-links li:active {
+    background-color: #52658F;
+    cursor: pointer;
+}
+
+.resume-section-header {
+	margin: 0 15px;
+	padding-left: 20px;
+	border-left: 5px solid #52658F;
+	color: #52658F;
+}
+
+.resume-section-header h2 {
+	font-size: 30px;
+	font-weight: bold;
+	padding: 5px 0;
+	margin-top: 50px;
+}
+
+.resume-section-header i {
+	padding-right: 8px;
+}
+
+.resume-body {
+	margin: 0 15px 20px 15px;
+	padding: 0 20px;
+	border: 8px solid #f7f7f7;
+}
+
+.resume-body table {
+	margin: 15px 0;
+	width: 100%;
+}
+
+.languages th,
+.languages td {
+	padding: 1px 0;
+	width: 25%;
+}
+
+.software th,
+.software td {
+	padding: 1px 0;
+	width: 30%;
+}
+
+.resume-body h3 {
+	font-weight: bold;
+}
+
+.title-date-block {
+	display: block;
+	font-size: 17px;
+}
+
+.date {
+	float: right;
+}
+
+.section-resume .body-detail-divider {
+	width: 100%;
+	margin: 15px auto 15px auto;
+}
+
+.resume-body-details ul{
+	margin: 0 0 20px 50px;
+}
+
+.education-body-details ul{
+	margin: 0 0 20px 50px;
+}
+
+.education-body-details li {
+	list-style: none;
+}
+
+
+
+
+/* ----------------------------------------- */
+/* MEDIA QUERRIES */
+/* ----------------------------------------- */
+
+@media only screen and (max-width: 1200px) {
+
+	.social-links {
+		margin: 0 0 30px 90px;
+	}
+
+	.contact-links {
+		margin: 35px 0 35px 70px;
+	}
+    .resume-links li {
+		padding: 10px 35px;
+	}
+
+	.languages th,
+	.languages td {
+		padding: 1px 3px;
+		width: 33%;
+		font-size: 17px;
+	}
+
+	.software th,
+	.software td {
+		padding: 1px 0;
+		width: 30%;
+		font-size: 17px;
+	}
+
+	.title-date-block {
+		font-size: 15px;
+	}
+}
+
+
+@media only screen and (max-width: 990px) {
+
+	.info-padding {
+		padding: 30px 15px 15px 15px;
+	}
+
+	.social-links {
+		margin: 0 0 30px 258px;
+	}
+
+	.contact-links {
+		margin: 35px 0 35px 235px;
+	}
+    .resume-links li {
+		padding: 10px 81px;
+	}
+
+	.languages th,
+	.languages td {
+		padding: 1px 0;
+		width: 22%;
+		font-size: 17px;
+	}
+
+	.software th,
+	.software td {
+		padding: 1px 0;
+		width: 28%;
+		font-size: 17px;
+	}
+
+	.title-date-block {
+		font-size: 17px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
