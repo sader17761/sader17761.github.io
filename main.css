@@ -95,18 +95,19 @@ header {
 
 .contact-links li {
 	list-style: none;
+	padding: 4px 0;
 }
 
 .contact-links i {
 	margin-right: 12px;
-	font-size: 22px;
+	font-size: 20px;
 	color: #52658F;
 }
 
 .social-links {
 	list-style: none;
 	font-size: 35px;
-	margin: 0 0 30px 125px;
+	margin: 0 0 30px 123px;
 }
 
 .social-links li{
@@ -167,7 +168,7 @@ header {
 	display: inline-block;
 	background-color: #333A56;
 	color: #fff;
-	padding: 10px 65px;
+	padding: 10px 68px;
 }
 
 .resume-links li:first-of-type {
@@ -274,13 +275,18 @@ header {
 
 @media only screen and (max-width: 1200px) {
 
+	.contact-links {
+		margin: 35px 0 35px 70px;
+	}
+
 	.social-links {
 		margin: 0 0 30px 90px;
 	}
 
-	.contact-links {
-		margin: 35px 0 35px 70px;
+	.social-links li{
+		margin-right: 30px;
 	}
+
     .resume-links li {
 		padding: 10px 35px;
 	}
@@ -340,20 +346,4 @@ header {
 		font-size: 17px;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
